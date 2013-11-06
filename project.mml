@@ -1,14 +1,14 @@
 {
   "bounds": [
-    -73.0337,
-    -18.8907,
-    -43.1948,
-    4.3519
+    -71.4242,
+    -17.4607,
+    -44.9691,
+    3.2228
   ],
   "center": [
-    -57.5649,
-    -7.0954,
-    5
+    -55.8346,
+    -6.1023,
+    6
   ],
   "format": "png",
   "interactivity": {
@@ -19,8 +19,8 @@
       "Municipalidade"
     ]
   },
-  "minzoom": 5,
-  "maxzoom": 12,
+  "minzoom": 6,
+  "maxzoom": 11,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss"
