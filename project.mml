@@ -1,0 +1,94 @@
+{
+  "bounds": [
+    -73.0337,
+    -18.8907,
+    -43.1948,
+    4.3519
+  ],
+  "center": [
+    -57.5649,
+    -7.0954,
+    5
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "inspections",
+    "template_teaser": "<h2>{{{Total}}}</h2>\n<div class=\"lang-pt\">escravos libertados desde 2003</div>\n<div class=\"lang-es\">esclavos rescatados desde 2003</div>\n<div class=\"lang-en\">rescued slaves since 2003</div>\n<span style=\"color:#FFF;font-style:bold;margin-top:5px;\">{{{Municipalidade}}}</span>",
+    "fields": [
+      "Total",
+      "Municipalidade"
+    ]
+  },
+  "minzoom": 5,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape",
+        "id": "countries",
+        "project": "forced-labour",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ]
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -73.99350248843054,
+        -18.04249870308551,
+        -41.79702959253773,
+        5.27149090991509
+      ],
+      "id": "limite-amazonia",
+      "class": "image",
+      "Datasource": {
+        "file": "data/UFS_AmLeg_LLwgs84/UFS_AMZLEG_LLWGS84.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "limite-amazonia"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -70.3539836082165,
+        -16.2595094669667,
+        -46.13876521614951,
+        2.60766639841651
+      ],
+      "id": "inspections",
+      "class": "",
+      "Datasource": {
+        "file": "data/Forced_Labour_in Amazonia.csv",
+        "id": "inspections",
+        "project": "forced-labour",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "inspections"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Forced Labour",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}
