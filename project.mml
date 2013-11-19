@@ -1,26 +1,26 @@
 {
   "bounds": [
-    -71.4242,
-    -17.4607,
-    -44.9691,
-    3.2228
+    -94.2373,
+    -35.8312,
+    -34.3838,
+    16.1144
   ],
   "center": [
-    -55.8346,
-    -6.1023,
-    6
+    -62.333,
+    -6.681,
+    4
   ],
   "format": "png",
   "interactivity": {
     "layer": "inspections",
-    "template_teaser": "<h2>{{{Total}}}</h2>\n<div class=\"lang-pt\">escravos libertados desde 2003</div>\n<div class=\"lang-es\">esclavos rescatados desde 2003</div>\n<div class=\"lang-en\">rescued slaves since 2003</div>\n<span style=\"color:#FFF;font-style:bold;margin-top:5px;\">{{{Municipalidade}}}</span>",
+    "template_teaser": "<h2>{{{Total}}}</h2>\n<div class=\"lang-pt\">escravos libertados 2003/2012</div>\n<div class=\"lang-es\">esclavos rescatados 2003/2012</div>\n<div class=\"lang-en\">rescued slaves 2003/2012</div>\n<span style=\"color:#FFF;font-style:bold;margin-top:10px;\">{{{Municipalidade}}}</span>",
     "fields": [
       "Total",
       "Municipalidade"
     ]
   },
-  "minzoom": 6,
-  "maxzoom": 11,
+  "minzoom": 4,
+  "maxzoom": 12,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss"

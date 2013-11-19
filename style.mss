@@ -19,7 +19,7 @@
 }
 
 #inspections {
-  marker-width:5;
+  //marker-width:5;
   marker-fill:#BB0404;
   marker-fill-opacity:0.8;
   marker-line-color:#800101;
@@ -35,5 +35,8 @@
   [Total >= 500] { marker-width:50; }
   [Total >= 750] { marker-width:75; }
   [Total >= 1000] { marker-width:100; }
+  [zoom <= 5] {
+    [Total >= 300] { marker-width:30; }
+  }
   marker-comp-op:darken;
 }
