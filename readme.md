@@ -1,4 +1,4 @@
-# Map: Forced labour from Imazon SAD
+# Map: Forced labour : Data originated by Ministério do Trabalho e Emprego do Brasil
 
 This is the TileMill project for forced labour data from the Brazilian National Pact to Combat Forced Labour.
 
