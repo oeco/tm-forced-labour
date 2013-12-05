@@ -13,7 +13,7 @@
   "format": "png",
   "interactivity": {
     "layer": "inspections",
-    "template_teaser": "<h2>{{{Total}}}</h2>\n<div class=\"lang-pt\">escravos libertados 2003/2012</div>\n<div class=\"lang-es\">esclavos rescatados 2003/2012</div>\n<div class=\"lang-en\">rescued slaves 2003/2012</div>\n<span style=\"color:#FFF;font-style:bold;margin-top:10px;\">{{{Municipalidade}}}</span>",
+    "template_teaser": "<h1 style=\"line-height:20px;display:inline;color:#FFF;\">{{{Total}}}</h1>\n<p class=\"lang-pt\" style=\"display:inline;\">escravos libertados 2003/2012</p>\n<p class=\"lang-es\" style=\"display:inline;\">esclavos rescatados 2003/2012</p>\n<p class=\"lang-en\" style=\"display:inline;\">rescued slaves 2003/2012</p>\n<div style=\"color:#FFF;font-weight: bold;margin-top:2px;display: block;\">{{{Municipalidade}}}</div>",
     "fields": [
       "Total",
       "Municipalidade"
@@ -66,15 +66,15 @@
     {
       "geometry": "point",
       "extent": [
-        -70.3539836082165,
-        -16.2595094669667,
-        -46.13876521614951,
-        2.60766639841651
+        -70.35,
+        -16.26,
+        -46.14,
+        2.61
       ],
       "id": "inspections",
       "class": "",
       "Datasource": {
-        "file": "data/Forced_Labour_in Amazonia.csv",
+        "file": "data/Forced-Labour-Amazonia.csv",
         "id": "inspections",
         "project": "forced-labour",
         "srs": ""
@@ -88,7 +88,7 @@
   "scale": 1,
   "metatile": 2,
   "name": "Forced Labour",
-  "description": "",
+  "description": "Released slaves in Legal Amazonia (2003/2012)",
   "attribution": "",
   "legend": ""
 }

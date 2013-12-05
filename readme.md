@@ -6,4 +6,4 @@ Source data is available here:
 
     http://www.reporterbrasil.com.br/pacto/conteudo/view/20
 
-These files were condensed in the `forced-labor.csv`, available at the `data` folder.
+These files were condensed in the 'Forced-Labour-Amazonia.csv', available at the 'data' folder.

@@ -8,6 +8,7 @@
   polygon-fill: #fff;
   polygon-pattern-file:url("images/tela.png");
   opacity: 0.1;
+  comp-op:multiply;
 }
 
 #limite-amazonia {
@@ -16,6 +17,7 @@
   line-join: round;
   polygon-pattern-file:url("images/telabig.png");
   opacity: 0.3;
+  comp-op:multiply;
 }
 
 #inspections {
@@ -25,7 +27,7 @@
   marker-line-color:#800101;
   marker-line-width:2;
   marker-line-opacity:0.8;
-  marker-allow-overlap:true;
+  marker-allow-overlap:false;
   marker-ignore-placement:true;
   [Total >= 50] { marker-width:5; }
   [Total >= 100] { marker-width:10; }
