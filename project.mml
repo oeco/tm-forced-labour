@@ -13,7 +13,7 @@
   "format": "png",
   "interactivity": {
     "layer": "inspections",
-    "template_teaser": "<h1 style=\"line-height:20px;display:inline;color:#FFF;\">{{{Total}}}</h1>\n<p class=\"lang-pt\" style=\"display:inline;\">escravos libertados 2003/2012</p>\n<p class=\"lang-es\" style=\"display:inline;\">esclavos rescatados 2003/2012</p>\n<p class=\"lang-en\" style=\"display:inline;\">rescued slaves 2003/2012</p>\n<div style=\"color:#FFF;font-weight: bold;margin-top:2px;display: block;\">{{{Municipalidade}}}</div>",
+    "template_teaser": "<h1 style=\"line-height:20px;float:left;color:#F8F8F8;margin:0 5px 10px 0;\">{{{Total}}}</h1>\n<div class=\"lang-pt\" style=\"float:left;\">escravos libertados 2003/2012</div>\n<div class=\"lang-es\" style=\"float:left;\">esclavos rescatados 2003/2012</div>\n<div class=\"lang-en\" style=\"float:left;\">rescued slaves 2003/2012</div>\n<div style=\"color:#FFF;font-weight:bold;font-size:10px;display:block;clear:left;\">{{{Municipalidade}}}</div>",
     "fields": [
       "Total",
       "Municipalidade"
