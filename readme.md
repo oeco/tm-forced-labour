@@ -1,9 +1,9 @@
-# Map: Forced labour : Data originated by Ministério do Trabalho e Emprego do Brasil
+# Infoamazonia: Map of Forced Labour
 
-This is the TileMill project for forced labour data from the Brazilian National Pact to Combat Forced Labour.
+This is the TileMill project for forced labour data from the [*Brazilian National Pact to Combat Forced Labour*](http://pactonacional.com.br/).
 
-Source data is available here:
+## Data
 
-    http://www.reporterbrasil.com.br/pacto/conteudo/view/20
+Reporter Brasil published data about freed workers [here](http://reporterbrasil.org.br/dados/trabalhoescravo).
 
-These files were condensed in the 'Forced-Labour-Amazonia.csv', available at the 'data' folder.
+At `data` folder there are summaries of freed workers by city and state.
